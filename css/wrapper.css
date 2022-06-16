@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  width: 1920px;
+  height: 1080px;
+}
+.wrapper {
+  background-color: black;
+  background-image: url(../images/pngwing.com.png);
+  background-size: cover;
+  
+}
