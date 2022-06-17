@@ -3,8 +3,8 @@
   padding: 0;
 }
 .background {
-  width: 1920px;
-  height: 1080px;
+  /* max-width: 1920px;
+  height: auto; */
 }
 .wrapper {
   background-color: black;
@@ -12,3 +12,4 @@
   background-size: cover;
   
 }
+
