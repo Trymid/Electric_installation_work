@@ -1,0 +1,32 @@
+.main {
+  height: auto;
+  /* background-color: brown; */
+  margin: -4rem 0 0 0;
+}
+
+.presentation {
+  height: 102vh;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.segment {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6rem 1rem 0 1rem;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.text-style-1 {
+  padding: 1rem 0 1rem 0;
+  font-size: 1.6rem;
+}
+
+.text-style-2 {
+  font-size: 1.2rem;
+}

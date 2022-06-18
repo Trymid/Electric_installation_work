@@ -1,6 +1,10 @@
 .header {
-  width: inherit;
-  padding: 1rem;
+  max-width: 1920px;
+  padding: 0 1rem 0 1rem;
+  position: sticky;
+  top: 1rem;
+  left: 0;
+  right: 0;
 }
 
 
@@ -13,13 +17,11 @@
   align-items: center; */
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   row-gap: 0.5rem;
-  /* background-color: rgba(231, 218, 33, 0.8); */
-  /* background-color: rgb(143, 143, 143); */
-  background-color: rgb(39, 46, 77);
+  background-color: rgba(231, 218, 33, 0.8);
   border-radius: 10px;
-  padding: 1rem 0 1rem 0;
+  padding: 1rem;
   
 }
 
@@ -29,7 +31,6 @@
   list-style: none;
   /* width: 12.5%; */
   /* border: 1px solid orange; */
-  /* padding: 0 1.2rem 0 1.2rem; */
 }
 
 .list-item:hover {
@@ -38,21 +39,14 @@
 }
 
 .nav-list-link {
-  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  color: black;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 0.4rem;
-  font-weight: bold;
-  border: 3px solid rgb(107, 107, 107); 
-  border-radius: 4px;
 }
 
 .nav-list-link:hover {
-  color: rgb(255, 157, 0);
-  box-shadow: 0 0 10px 5px rgba(221, 152, 22, 0.6);
-  background-color: rgb(255, 254, 182);
-  border-radius: 8px;
-  border: 3px solid rgb(165, 114, 32); 
+  color: white;
 }
 
 /* .nav-list-link:: */

@@ -7,9 +7,14 @@
   height: auto; */
 }
 .wrapper {
-  background-color: black;
-  background-image: url(../images/pngwing.com.png);
-  background-size: cover;
+  /* position: relative; */
+  max-width: 1920px;
+  height: 100%;
+  margin: auto;
+  background-image: url(../images/background/background_brick_wall.png);
+  background-attachment: fixed;
+  background-size: 35% 45%;
+  font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
   
 }
 
