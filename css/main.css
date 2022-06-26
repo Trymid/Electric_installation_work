@@ -5,7 +5,7 @@
 }
 
 .presentation {
-  height: 102vh;
+  height: 100vh;
   background-color: rgba(128, 128, 128, 0.5);
 }
 
@@ -17,6 +17,48 @@
   align-items: center;
   padding: 6rem 1rem 0 1rem;
 }
+
+.segment_advantages {
+  height: 100vh;
+  padding: 6rem 1rem 0 1rem;
+  color: white;
+  background-image: url(../images/backgrounds/advantages_1.jpg);
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  /* display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  justify-items: center;
+  align-items: center; */
+}
+
+.title-advantages {
+  text-align: center;
+}
+
+.advantages-list {
+  padding: 1.5rem 0 0 0;
+  list-style: none;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  justify-items: center;
+  align-items: self-start;
+  flex-basis: 1 1 auto;
+}
+
+.advantages-list-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 
 .title {
   font-size: 3rem;
@@ -30,3 +72,26 @@
 .text-style-2 {
   font-size: 1.2rem;
 }
+
+.info-icon {
+  width: 96px;
+  height: 96px;
+}
+
+.info-icon_confirmed {
+  background-image: url(../images/icons/confirmed-icon.png);
+}
+
+.info-icon_cargo {
+  background-image: url(../images/icons/cargo-icon.png);
+}
+
+.info-icon_hand-tools {
+  background-image: url(../images/icons/hand-tools-icon.png);
+}
+
+.info-icon_individual {
+  background-image: url(../images/icons/individual-icon.png);
+}
+
+

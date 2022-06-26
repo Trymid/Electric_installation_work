@@ -2,11 +2,11 @@
   max-width: 1920px;
   padding: 0 1rem 0 1rem;
   position: sticky;
+  /* position: absolute; */
   top: 1rem;
   left: 0;
   right: 0;
 }
-
 
 .nav-list {
   max-width: 1920px;
