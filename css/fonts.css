@@ -1,8 +1,8 @@
 @font-face {
 	font-family: 'Proxima Nova';
 	src: local('Proxima Nova'),
-		url('../fonts/ProximaNova-Regular.woff') format('woff'),
-		url('../fonts/ProximaNova-Regular.ttf') format('ttf');
+		url('../fonts/ProximaNova/ProximaNova-Regular.woff') format('woff'),
+		url('../fonts/ProximaNova/ProximaNova-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -10,8 +10,67 @@
 @font-face {
 	font-family: 'Proxima Nova';
 	src: local('Proxima Nova'),
-		url('../fonts/ProximaNova-Bold.woff') format('woff'),
-		url('../fonts/ProximaNova-Bold.ttf') format('ttf');
+		url('../fonts/ProximaNova/ProximaNova-Bold.woff') format('woff'),
+		url('../fonts/ProximaNova/ProximaNova-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'LCD';
+	src: local('LCD'),
+		url('../fonts/LCD/lcd.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'LCD';
+	src: local('LCD'),
+		url('../fonts/LCD/lcd-light.ttf') format('truetype');
+	font-weight: light;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'LCD';
+	src: local('LCD'),
+		url('../fonts/LCD/lcd-normal.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'LCD';
+	src: local('LCD'),
+		url('../fonts/LCD/lcd-bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'LCD';
+	src: local('LCD'),
+		url('../fonts/LCD/lcd-ultra.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'LCD-2';
+	src: local('LCD-2'),
+		url('../fonts/LCD-2/ds-digital-normal.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'LCD-2';
+	src: local('LCD-2'),
+		url('../fonts/LCD-2/ds-digital-bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+		
